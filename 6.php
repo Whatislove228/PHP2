@@ -6,7 +6,8 @@
  * Time: 15:40
  */
 $arr = ['green'=>'зеленый', 'red'=>'красный','blue'=>'голубой'];
-
+$en[] = 0;
+$ru[] = 0;
 foreach ($arr as $key => $value) {
     $en[] = $key;
     $ru[] = $value;
