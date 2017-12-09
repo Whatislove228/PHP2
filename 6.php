@@ -6,6 +6,16 @@
  * Time: 15:40
  */
 $arr = ['green'=>'зеленый', 'red'=>'красный','blue'=>'голубой'];
+
+$en= print_r(array_keys($arr));
+$ru= print_r(array_values($arr));
+$english= explode(" ",$en);
+
+foreach ($english as $item){
+    echo $item;
+}
+
+/*
 $en[] = 0;
 $ru[] = 0;
 foreach ($arr as $key => $value) {
@@ -24,3 +34,4 @@ echo "</br>";
 var_dump($en);
 echo "</br>";
 var_dump($ru);
+*/
